@@ -1,0 +1,4 @@
+---
+# vars file for deploy_wp_on_lemp
+
+php_modules: [ 'php', 'php-fpm', 'php-mysql', 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]

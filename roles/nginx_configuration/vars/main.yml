@@ -1,0 +1,5 @@
+---
+# vars file for nginx_configuration
+http_host: "{{ ansible_host }}"
+http_conf: "{{ ansible_host }}.conf"
+http_port: "80"
