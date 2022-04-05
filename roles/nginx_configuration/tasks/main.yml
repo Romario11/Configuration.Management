@@ -15,9 +15,3 @@
     dest: "/etc/nginx/sites-enabled/{{ http_conf }}"
     state: link
   notify: Reload Nginx
-    
-- name: Removes "default" site
-  file:
-    path: "/etc/nginx/sites-enabled/default"
-    state: absent
-  notify: Reload Nginx

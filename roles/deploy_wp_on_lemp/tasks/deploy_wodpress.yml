@@ -7,7 +7,7 @@
     group: "www-data"
     mode: '0755'
 
-- name: Download and unpack latest WordPress
+- name: Download and unpack WordPress
   unarchive:
     src: https://wordpress.org/latest.tar.gz
     dest: "/var/www/{{ http_host }}"
